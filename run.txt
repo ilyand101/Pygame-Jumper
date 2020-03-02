@@ -1,0 +1,4 @@
+self.settings, font = QFontDialog.getFont()
+        if self.settings:
+            self.lbl.setFont(font)
+ 

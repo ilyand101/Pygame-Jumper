@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1095</width>
+    <height>935</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>981</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QPushButton" name="read">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>680</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Начать читать</string>
+      </property>
+     </widget>
+     <widget class="QListView" name="listView">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>241</width>
+        <height>731</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="delete_2">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>20</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Удалить из библиотеки</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <widget class="QPushButton" name="next">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>690</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Следующая</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="last">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>690</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Предыдущая</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="settings">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>720</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Настройки</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>931</width>
+        <height>641</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="text">
+       <string>В 2011 году была переведена хорошая статья „Лучшие шрифты для программирования“. Теперь представляется список самых удачных шрифтов для кода на момент июня 2014 года.
+Хотя я и уверен, что многих устраивает Courier New, используемый по умолчанию в Windows во многих редакторах. Но, как человек любящий типографику, настаиваю обратить внимание на одну из гарнитур из этой статьи. Хороший шрифт — это прекрасно!
+
+Шрифты гарнитур будут оцениваться по качеству кириллицы и красоте всех остальных символов, применяемых во время написания кода. Для демонстрации использовался редактор Brackets. Важно, изображения в статье не могут отражать реальные ощущения от применения шрифта в вашем редакторе. Поэтому лучше попробовать несколько вариантов и выбрать подходящий.
+
+PT Mono
+
+Разработан в России при поддержке Федерального агентства по печати и массовым коммуникациям РФ. На сайте разработчиков можно найти более подробное описание.
+Обладает очень качественной кириллицей. Но в остальном имеет несколько недостатков. Символ «минус» ниже символа «плюс», и не оцентрован относительно знака «равно», т. е. «-=» будет смотреться не красиво. Все скобки располагаются низко, хотя такой подход прослеживается во многих шрифтах.
+PT Mono — личный выбор автора поста.</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::AutoText</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Fontn">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>720</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Размер Шрифта</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1095</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
